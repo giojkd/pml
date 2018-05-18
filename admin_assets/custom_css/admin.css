@@ -1,0 +1,127 @@
+/*THIS STYLE IS FOR BACKEND LOGO FOR DRIVER HUB*/
+.form-control::-moz-placeholder{
+	color: #bfbfbf !important;
+}
+.form-control::placeholder{
+	color: #bfbfbf !important;
+}
+select.form-control{
+}
+
+
+.page-logo a{
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 26px;
+	padding: 0px 0 0;
+	color: #FFF;
+	display: inline-block;
+	line-height: 26px;
+	margin: 3px 0;
+}
+.page-logo  a .logo-1stword{
+	padding: 4px;
+	display: inline-block;
+	text-transform: capitalize;
+	border-radius: 2px  0 0 2px;
+}
+.page-logo a .logo-2ndword{
+	background: #CF1D2D;
+	padding: 4px;
+	display: inline-block;
+	text-transform: capitalize;
+	border-radius:  2px !important;
+}
+.badge_btn{
+	position:relative;
+}
+.badge_btn .badge_area{
+	background-color: #f3565d;
+    color: #fff;
+    font-size: 10px !important;
+    left: -18px;
+    position: absolute !important;
+    top: -6px;
+}
+/*=======================*/
+.control-label{
+	font-size: 18px;
+	margin-bottom: 5px !important;
+	color: #444;
+}
+
+.margin-left-20{
+    margin-left: 20px !important;
+}
+.margin-top-10{
+    margin-top: 10px !important;
+}
+.c-comment-list .margin-top-bottom-30{
+     border-radius: 4px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding: 3px;
+}
+
+.c-comment-list .margin-top-bottom-30 .media-body.text-right{
+	background: #000000;
+	border:1px solid #272727;
+	width:96%;
+	color: #999;
+	float:right;
+	text-align:right;
+}
+.c-comment-list .margin-top-bottom-30 .media-body{
+	padding:16px;
+	background: #454545;
+	border:1px solid #272727;
+	width:96%;
+	text-align:left;
+	color: #999;
+	float:left;
+}
+
+.c-comment-list .margin-top-bottom-30 .media-body .media-heading{
+	font-size:12px;
+}
+.c-comment-list .margin-top-bottom-30 .media-body .media-heading a,
+.c-comment-list .margin-top-bottom-30 .media-body .media-heading span.c-date{
+	color:#fff;
+}
+.c-comment-list .margin-top-bottom-30 .media-body .media-heading a{
+	font-weight:bold;
+	display: block;
+	font-size:16px;
+	margin-bottom: 4px;
+}
+
+.boxless .portlet.box.blue > .portlet-title{
+	background-color:#329fdb;
+}
+
+/*.boxless .portlet.box > .portlet-body{
+	max-height:400px;
+	overflow-y:scroll;
+}*/
+
+.boxless .message-send-area{
+	padding:4px;
+	background: #000000;
+    border: 1px solid #272727;
+}
+
+.message-send .input-group .input-icon .form-control{
+	height:90px;
+	vertical-align: top;
+	padding: 20px;
+}
+
+.message-send .input-group .input-group-btn .btn-success,
+.message-send .input-group .input-group-btn .btn-success:hover,
+.message-send .input-group .input-group-btn .btn-success:focus,
+.message-send .input-group .input-group-btn .btn-success:active{
+	height: 120px;
+	background: #454545 none repeat scroll 0 0;
+    border: 1px solid #272727;
+	color:#fff;
+}
